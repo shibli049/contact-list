@@ -12,12 +12,15 @@
       </form>
     </header>
 
+
     <ul>
       {{#each tasks}}
         {{> task}}
       {{/each}}
     </ul>
+    {{> meteoris_flash}}
   </div>
+
 </body>
 
 <template name="task">
